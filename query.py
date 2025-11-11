@@ -20,7 +20,7 @@ with sqlite3.connect('concrete.db') as conn:
 
     # 2. Show ONLY failed tests
     print('\nFAILED TESTS')
-    query2 = 'SELECT * from concrete_tests where passed = 0';
+    query2 = 'SELECT * from concrete_tests where passed = 0'
     cursor.execute(query2)
     
     while row := cursor.fetchone():
