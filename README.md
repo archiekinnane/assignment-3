@@ -12,5 +12,5 @@ Run create_db.py to set up the database.
 Run insert_data.py to populate the database with data.
 Use query.py to execute queries and view results.
 
-###Requirements
+### Requirements
 sqlite3  
